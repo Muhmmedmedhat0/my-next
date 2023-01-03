@@ -14,7 +14,7 @@ function EventsSearch(props) {
     props.onSearch(selectedYear, selectedMonth);
   }
   return (
-    <from className={classes.form}>
+    <form className={classes.form}>
       <div className={classes.controls}>
         <div className={classes.control}>
           <label htmlFor="year">Year</label>
@@ -44,7 +44,7 @@ function EventsSearch(props) {
       <Button onClick={submitHandler} type="submit">
         Find Events
       </Button>
-    </from>
+    </form>
   );
 }
 
