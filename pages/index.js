@@ -7,8 +7,8 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   const featuredEvents = getFeaturedEvents();
   return (
-    <main>
+    <>
       <EventList items={featuredEvents} />
-    </main>
+    </>
   );
 }
